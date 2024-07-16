@@ -1,0 +1,110 @@
+CPU Usage
+Using mpstat command:
+
+Linux 6.5.0-41-generic (moazzam-Victus-by-HP-Gaming-Laptop-15-fa0xxx) 	07/07/2024 	_x86_64_	(12 CPU)
+
+22:03:01     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+22:03:01     all    0.90    0.00    0.32    0.06    0.00    0.01    0.00    0.00    0.00   98.71
+
+Using top command:
+
+[?1h=[?25l[H[2J(B[mtop - 22:03:01 up  1:00,  1 user,  load average: 0.29, 0.33, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 343 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 342 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  3.6 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 95.4 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m  15647.9 (B[m[39;49mtotal,(B[m[39;49m[1m   9514.6 (B[m[39;49mfree,(B[m[39;49m[1m   2909.8 (B[m[39;49mused,(B[m[39;49m[1m   3223.5 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   2048.0 (B[m[39;49mtotal,(B[m[39;49m[1m   2048.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m  11684.4 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                    (B[m[39;49m[K
+(B[m   4046 ubuntu    20   0 1135.6g 264540 102376 S  20.0   1.7   2:06.48 code                                                                                                       (B[m[39;49m[K
+(B[m   2275 root      20   0   25.9g 158360  91172 S   6.7   1.0   0:37.24 Xorg                                                                                                       (B[m[39;49m[K
+(B[m   2729 ubuntu    20   0  389592  11840   7040 S   6.7   0.1   0:03.72 ibus-daemon                                                                                                (B[m[39;49m[K
+(B[m   2931 ubuntu    20   0  163836   7552   6784 S   6.7   0.0   0:01.11 ibus-engine-sim                                                                                            (B[m[39;49m[K
+(B[m   4024 ubuntu    20   0   33.0g 147896 103952 S   6.7   0.9   0:53.28 code                                                                                                       (B[m[39;49m[K[H(B[mtop - 22:03:04 up  1:00,  1 user,  load average: 0.29, 0.33, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 342 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 341 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.6 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.1 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m  15647.9 (B[m[39;49mtotal,(B[m[39;49m[1m   9545.0 (B[m[39;49mfree,(B[m[39;49m[1m   2909.3 (B[m[39;49mused,(B[m[39;49m[1m   3193.6 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   2048.0 (B[m[39;49mtotal,(B[m[39;49m[1m   2048.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m  11714.7 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   4046 ubuntu    20   0 1135.6g 263412 101808 S   3.0   1.6   2:06.57 code                                                                                                       (B[m[39;49m[K
+(B[m   4202 ubuntu    20   0 1131.2g  96776  71296 S   1.7   0.6   0:11.26 code                                                                                                       (B[m[39;49m[K
+(B[m   2491 ubuntu    20   0 5910684 281976 123800 S   0.7   1.8   0:46.60 gnome-shell                                                                                                (B[m[39;49m[K
+(B[m   3163 ubuntu    20   0   32.4g 128688 100676 S   0.7   0.8   0:24.38 chrome                                                                                                     (B[m[39;49m[K
+(B[m   3990 ubuntu    20   0 1131.6g 184432 134308 S   0.7   1.2   0:18.67 code                                                                                                       (B[m[39;49m[K[?1l>[13;1H
+[?12l[?25h[K
+Memory Usage
+
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       2.8Gi       9.3Gi       697Mi       3.1Gi        11Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+Disk Space
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.7M  1.6G   1% /run
+/dev/nvme0n1p2  468G   40G  405G   9% /
+tmpfs           7.7G  112M  7.6G   2% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+efivarfs        256K  143K  109K  57% /sys/firmware/efi/efivars
+/dev/nvme0n1p1  511M  6.1M  505M   2% /boot/efi
+tmpfs           1.6G  112K  1.6G   1% /run/user/1002
+
+Network Statistics
+
+br-88007c143b50: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.20.0.1  netmask 255.255.0.0  broadcast 172.20.255.255
+        ether 02:42:75:9b:28:09  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+br-9b2fefd16214: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.19.0.1  netmask 255.255.0.0  broadcast 172.19.255.255
+        ether 02:42:16:f9:7e:ea  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+br-d3c4f6671ac5: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.18.0.1  netmask 255.255.0.0  broadcast 172.18.255.255
+        ether 02:42:16:ff:f3:d3  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:c6:ab:35:4c  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eno1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 5c:60:ba:d8:be:6e  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4258  bytes 412830 (412.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4258  bytes 412830 (412.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp4s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1280
+        inet 192.168.0.135  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::8135:c737:6be0:5c8f  prefixlen 64  scopeid 0x20<link>
+        ether 34:6f:24:c9:bb:db  txqueuelen 1000  (Ethernet)
+        RX packets 54720  bytes 43355313 (43.3 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 50111  bytes 11978360 (11.9 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+

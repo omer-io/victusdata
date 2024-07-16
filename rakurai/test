@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Prompt the user for their name
+echo "Hello! Please enter your name:"
+read name
+
+# Greet the user with a personalized message
+echo "Hello, $name! Welcome to the Bash scripting world."

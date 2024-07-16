@@ -1,0 +1,10 @@
+Create
+a
+Bash
+script
+that
+continuously
+monitors
+a
+log
+file
